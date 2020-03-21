@@ -1,0 +1,5 @@
+name: Login Blocks
+description: 'Login Blocks.' 
+type: module 
+core: 8.x 
+package: Custom

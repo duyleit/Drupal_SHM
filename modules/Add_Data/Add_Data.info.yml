@@ -1,0 +1,6 @@
+name: Add Data
+description: Creates a add data form example.
+package: Custom
+type: module
+core: 8.x
+

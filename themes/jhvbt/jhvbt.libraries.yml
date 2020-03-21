@@ -1,0 +1,18 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/bootstrap.css: {}
+      css/style.css: {}
+      css/custom.css: {}
+      css/jquery.fancybox.min.css: {}
+      css/bootstrap-theme.css: {}
+      css/www-player-webp-vflIFpabe.css: {}
+     
+  js:
+    js/bootstrap.js: {}
+    js/custom.js: {}
+    js/jquery.fancybox.min.js: {}
+    
+  dependencies:
+    - core/jquery

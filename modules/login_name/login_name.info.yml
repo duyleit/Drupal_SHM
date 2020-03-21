@@ -1,0 +1,5 @@
+name: Login Name
+description: 'Show login name currently.'
+core: 8.x
+package: Custom
+type: module

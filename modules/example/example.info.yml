@@ -1,0 +1,5 @@
+name: Example
+description: Creates a page example.
+package: Custom
+type: module
+core: 8.x

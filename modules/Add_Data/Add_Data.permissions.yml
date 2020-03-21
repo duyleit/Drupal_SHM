@@ -1,0 +1,4 @@
+access all Add_Data:
+  title: 'Bypass add access control'
+  description: 'Bypass access control when accessing add.'
+  restrict access: TRUE

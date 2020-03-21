@@ -1,0 +1,40 @@
+     
+example.display_table_form_display:    
+  path: '/mydata/hello/table-form'
+  defaults:
+    _form: '\Drupal\example\Form\DisplayTableForm'
+    _title: 'displayform'
+  requirements:
+    _access: 'TRUE' 
+    
+example.display_table_controller_display:    
+  path: '/mydata/hello/table'
+  defaults:
+    _controller: '\Drupal\example\Controller\DisplayTableController::display'
+    _title: 'display'
+  requirements:
+    _permission: 'access content'
+    
+example.mydata_form:
+  path: '/mydata/form/mydata'
+  defaults:
+    _form: '\Drupal\example\Form\MydataForm'
+    _title: 'MydataForm'
+  requirements:
+    _access: 'TRUE'    
+    
+example.delete_form:
+  path: '/mydata/form/delete/{cid}'
+  defaults:
+    _form: '\Drupal\example\Form\DeleteForm'
+    _title: 'DeleteForm'
+  requirements:
+    _access: 'TRUE'   
+    
+example.add_form:
+  path: '/mydata/form/add'
+  defaults:
+    _form: '\Drupal\example\Form\AddForm'
+    _title: 'AddForm'
+  requirements:
+    _access: 'TRUE'       

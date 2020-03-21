@@ -1,0 +1,15 @@
+example.Add_Data_form:
+  path: '/form/add-data'
+  defaults:
+    _form: '\Drupal\Add_Data\Form\AddDataForm'
+    _title: 'Add Form'
+  requirements:
+    _access: 'TRUE'
+    
+example.Add_Data_Controller:    
+  path: '/add-data'
+  defaults:
+    _controller: '\Drupal\Add_Data\Controller\AddDataController::AddData'
+    _title: 'Add Data'
+  requirements:
+    _permission: 'access content'    
